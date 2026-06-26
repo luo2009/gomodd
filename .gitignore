@@ -1,0 +1,24 @@
+# JetBrains IDE
+.idea/
+.vscode/
+
+# 编译输出
+example/main
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试
+*.test
+*.out
+
+# 依赖
+vendor/
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

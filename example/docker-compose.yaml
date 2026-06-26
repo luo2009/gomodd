@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  gomodd-example:
+    image: luo2009/gomodd:v1.24.2
+    container_name: gomodd-example
+    working_dir: /go/gomodd-example
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/go/gomodd-example
+    restart: always
